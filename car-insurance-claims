@@ -1,0 +1,224 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "f9b387b9-f169-4c18-bb65-7fc01016d47a",
+   "metadata": {},
+   "source": [
+    "# Car Insurance Claims"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f2c138f2-a2a9-4f16-9a65-93ed73395123",
+   "metadata": {},
+   "source": [
+    "What is the target? (You are required to complete a classification task for this project)\n",
+    "\n",
+    "What does one row represent? (A person? A business? An event? A product?)\n",
+    "\n",
+    "How many features does the data have?\n",
+    "\n",
+    "How many rows are in the dataset?\n",
+    "\n",
+    "What opportunities exist for dimensionality reduction or feature selection with this dataset?\n",
+    "\n",
+    "What, if any, challenges do you foresee in cleaning, exploring, or modeling this dataset?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ff592b79-fe3d-4af2-92b7-dad5dc72d481",
+   "metadata": {},
+   "source": [
+    "Explore/clean the data\n",
+    "\n",
+    "Create exploratory visualizations to understand your data and search for trends.\n",
+    "\n",
+    "Choose a model\n",
+    "\n",
+    "Preprocess data\n",
+    "\n",
+    "Fit and evaluate a default model\n",
+    "\n",
+    "Extract and visualize the top 10 features using permutation importance (from Intro to ML Week 4)\n",
+    "\n",
+    "Add your observations in a Markdown: Do these features make sense based on the business case?\n",
+    "\n",
+    "Create Explanatory Visualizations for the most important features.\n",
+    "\n",
+    "- Select 2 out of the top 10 features from your permutation importances and produce explanatory visualizations showing the relationship between the feature and the target.\n",
+    "  \n",
+    "    - The purpose is to demonstrate key trends you found that will be of interest to a stakeholder.\n",
+    "      \n",
+    "        - These visuals should be reporting-quality with titles, labels, and a short explanation of the trend. Be sure to explain in a text cell the insight associated with each visual. Both of these visualizations should be easily understood by a non-technical audience (Neither of these should be histograms, boxplots, or correlation plots).\n",
+    "\n",
+    "        - These will be added to your readme in part 4"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cdaee8dd-dd75-4585-a0d5-24a71d20e03a",
+   "metadata": {},
+   "source": [
+    "## Explore and Clean the Data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dbd38c33-5633-4931-b0b9-8312b03ec6d5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e18c0b80-50bb-49bf-94bd-8e890c098536",
+   "metadata": {},
+   "source": [
+    "## Create exploratory visualizations to understand your data and search for trends"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2ff4ce78-b4b4-49ef-9528-28fa41fc60da",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2c444a70-bbfa-47bf-bf4f-fe2a163727ff",
+   "metadata": {},
+   "source": [
+    "## Choose a model"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "016c428c-48d7-4b0a-9659-4978cd0ccdc4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "85b8ceab-73be-441e-a838-bbd0f3f47e11",
+   "metadata": {},
+   "source": [
+    "## Preprocess data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "71d3ce07-d158-48b8-8559-97c8ec46dc82",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e1237b7c-a2ab-4abf-b96d-bd53638423d2",
+   "metadata": {},
+   "source": [
+    "## Fit and Evaluate a default model"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d460c2a6-a9b3-4c5f-968f-c3ae2a71bc01",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4009e6b5-857a-4dfe-852a-016ecff3fe18",
+   "metadata": {},
+   "source": [
+    "## Extract and visualize the top 10 features using permutation importance (from Intro to ML Week 4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dfe3650f-7a34-4ea4-a43e-338fb38405c9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b61fa824-5abf-49b6-8244-0f669b6d3643",
+   "metadata": {},
+   "source": [
+    "## Add your observations in a Markdown: Do these features make sense based on the business case?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8bf3caf3-aa04-4caf-a602-13dfdb7b8ba9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cf6cd1a2-7091-4470-a043-67bd8bb5952d",
+   "metadata": {},
+   "source": [
+    "## Create Explanatory Visualizations for the most important features.\n",
+    "\n",
+    "- Select 2 out of the top 10 features from your permutation importances and produce explanatory visualizations showing the relationship between the feature and the target.\n",
+    "  \n",
+    "    - The purpose is to demonstrate key trends you found that will be of interest to a stakeholder.\n",
+    "      \n",
+    "        - These visuals should be reporting-quality with titles, labels, and a short explanation of the trend. Be sure to explain in a text cell the insight associated with each visual. Both of these visualizations should be easily understood by a non-technical audience (Neither of these should be histograms, boxplots, or correlation plots).\n",
+    "\n",
+    "        - These will be added to your readme in part 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9d8dc6d7-0659-4fd5-a8c0-2e8135afb93e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python (dojo-env)",
+   "language": "python",
+   "name": "dojo-env"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.10"
+  },
+  "widgets": {
+   "application/vnd.jupyter.widget-state+json": {
+    "state": {},
+    "version_major": 2,
+    "version_minor": 0
+   }
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
