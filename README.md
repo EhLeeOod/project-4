@@ -29,7 +29,7 @@ Original KNN Model:
            0       0.86      0.88      0.87      
            1       0.71      0.69      0.70       
 
-         accuracy                           0.82     
+    accuracy 0.82     
 
  KNN with PCA Model:
 
@@ -37,7 +37,7 @@ Original KNN Model:
            0       0.86      0.87      0.86      
            1       0.70      0.68      0.69      
 
-    accuracy                           0.81 
+    accuracy 0.81 
 
 KNN with non-collinearity:
 
@@ -45,7 +45,7 @@ KNN with non-collinearity:
            0       0.90      0.75      0.82 
            1       0.60      0.81      0.69      
 
-    accuracy                           0.77 
+    accuracy  0.77 
 
 Original Neural Network Model:
 
@@ -54,10 +54,15 @@ Original Neural Network Model:
            0       0.87      0.90      0.89      
            1       0.76      0.72      0.74      
 
-    accuracy                           0.84 
+    accuracy  0.84 
 
 Tuned Neural Network Model:
 
-accuracy: 0.8376 - recall: 0.6950 - precision: 0.7616
+                precision    recall  f1-score
 
-#### The best model, recommended for production, is the original neural network model due to it outperforming the other models in accuracy (0.84) and precision (0.76) when it comes to predicting which drivers will submit an insurance claim.
+           0       0.87      0.90      0.88      
+           1       0.76      0.69      0.73     
+
+    accuracy 0.84      
+
+#### The best model, recommended for production, is the original neural network model due to it achieving the highest scores in accuracy and precision when it comes to predicting which drivers will submit an insurance claim (the tuned NN matched these metrics, and thus is a viable alternative, however, the original NN slightly was selected due to how it outperformed in the remaining areas).
