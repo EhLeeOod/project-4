@@ -23,37 +23,36 @@ The visualization below shows insight into the relationship between a driver's m
 
 ## Summary: Neural Network, Training Metrics, and Final Evaluation Metrics
 Original KNN Model:
-         precision    recall  f1-score   support
 
-           0       0.86      0.88      0.87      1723
-           1       0.71      0.69      0.70       777
+                precision    recall  f1-score  
 
-         accuracy                           0.82      2500
+           0       0.86      0.88      0.87      
+           1       0.71      0.69      0.70       
+
+         accuracy                           0.82     
 
  KNN with PCA Model:
 
-  precision    recall  f1-score   support
-
-           0       0.86      0.87      0.86      1723
-           1       0.70      0.68      0.69       777
+                precision    recall  f1-score   
+           0       0.86      0.87      0.86      
+           1       0.70      0.68      0.69      
 
     accuracy                           0.81 
 
 KNN with non-collinearity:
 
- precision    recall  f1-score   support
-
-           0       0.90      0.75      0.82      1723
-           1       0.60      0.81      0.69       777
+                 precision    recall  f1-score
+           0       0.90      0.75      0.82 
+           1       0.60      0.81      0.69      
 
     accuracy                           0.77 
 
 Original Neural Network Model:
 
-  precision    recall  f1-score   support
+                precision    recall  f1-score
 
-           0       0.87      0.90      0.89      1723
-           1       0.76      0.72      0.74       777
+           0       0.87      0.90      0.89      
+           1       0.76      0.72      0.74      
 
     accuracy                           0.84 
 
