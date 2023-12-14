@@ -55,6 +55,7 @@ Original Neural Network Model:
            1       0.76      0.72      0.74      
 
     accuracy  0.84 
+    loss      0.36
 
 Tuned Neural Network Model:
 
@@ -64,5 +65,6 @@ Tuned Neural Network Model:
            1       0.76      0.69      0.73     
 
     accuracy 0.84      
+    loss     0.37
 
 #### The best model, recommended for production, is the original neural network model due to it achieving the highest scores in accuracy and precision when it comes to predicting which drivers will submit an insurance claim (the tuned NN matched these metrics, and thus is a viable alternative, however, the original NN slightly was selected due to how it outperformed in the remaining areas).
