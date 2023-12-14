@@ -22,5 +22,43 @@ The visualization below shows insight into the relationship between a driver's m
 ![](https://github.com/EhLeeOod/project-4-part-1/blob/main/Data/marriage_viz.PNG?raw=true)
 
 ## Summary: Neural Network, Training Metrics, and Final Evaluation Metrics
+Original KNN Model:
+         precision    recall  f1-score   support
+
+           0       0.86      0.88      0.87      1723
+           1       0.71      0.69      0.70       777
+
+         accuracy                           0.82      2500
+
+ KNN with PCA Model:
+
+  precision    recall  f1-score   support
+
+           0       0.86      0.87      0.86      1723
+           1       0.70      0.68      0.69       777
+
+    accuracy                           0.81 
+
+KNN with non-collinearity:
+
+ precision    recall  f1-score   support
+
+           0       0.90      0.75      0.82      1723
+           1       0.60      0.81      0.69       777
+
+    accuracy                           0.77 
+
+Original Neural Network Model:
+
+  precision    recall  f1-score   support
+
+           0       0.87      0.90      0.89      1723
+           1       0.76      0.72      0.74       777
+
+    accuracy                           0.84 
+
+Tuned Neural Network Model:
+
+accuracy: 0.8376 - recall: 0.6950 - precision: 0.7616
 
 # The best model, recommended for production, is the original neural network model due to it outperforming the other models in accuracy (0.84) and precision (0.76)
