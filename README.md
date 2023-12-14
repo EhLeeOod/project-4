@@ -1,6 +1,6 @@
 # Project 4
 
-## Business Case:
+## Business Case
 
 The business case/task is to try and predict which drivers will submit a claim based on their customer data.
 
@@ -20,3 +20,7 @@ The visualization below shows insight into the relationship between driving expe
 The visualization below shows insight into the relationship between a driver's marriage (0 = not married, 1 = married) status and filing an insurance claim (0 = not filed, 1 = filed). We can see here that the number of claims filed by unmarried drivers (about 2,000) is about twice as many as those filed by married drivers.
 
 ![](https://github.com/EhLeeOod/project-4-part-1/blob/main/Data/marriage_viz.PNG?raw=true)
+
+## Summary: Neural Network, Training Metrics, and Final Evaluation Metrics
+
+# The best model, recommended for production, is the original neural network model due to it outperforming the other models in accuracy (0.84) and precision (0.76)
