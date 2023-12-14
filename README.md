@@ -60,4 +60,4 @@ Tuned Neural Network Model:
 
 accuracy: 0.8376 - recall: 0.6950 - precision: 0.7616
 
-# The best model, recommended for production, is the original neural network model due to it outperforming the other models in accuracy (0.84) and precision (0.76)
+#### The best model, recommended for production, is the original neural network model due to it outperforming the other models in accuracy (0.84) and precision (0.76) when it comes to predicting which drivers will submit an insurance claim.
